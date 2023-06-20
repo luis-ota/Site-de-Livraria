@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="add.js"></script>
+    <title>Adicionar Livro</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+
+            <a class="itens_nav" href="/">Home</a>
+            <a class="itens_nav" href="#">Lançamento</a>
+            <a class="itens_nav" href="#">Em Liquidação</a>
+            <a class="itens_nav" href="#">Mais Vendidos</a>
+            <a class="itens_nav" href="#">Seus Livros</a>
+
+        </nav>
+
+        <section class="formulario">
+            <h3>Adiciones seus livros favoritos</h3>
+            <div class="perguntas">
+                <div>
+                    Nome do livro: <input id="livro" type="text" placeholder="Nome" name="nome" />
+                    <br>
+                    Link da capa do livro: <input id="capa" type=" text" placeholder="Link" name="link" />
+                    <br>
+                    Descrição do livro: <textarea id="descricao" rows="5" cols="50" placeholder="Descrição"
+                        name="descricao"> </textarea>
+                    <br>
+                    Nome do Autor: <input id="autor" type=" text" placeholder="Autor" name="autor" />
+                    <br>
+                    Ano de publicação: <input id="ano" type="text" placeholder="Ano" name="ano" />
+                    <br>
+                    Número de páginas: <input id="paginas" type=" text" placeholder="Páginas" name="paginas" />
+                    <br>
+                    <button onClick="adicionarLivro()">Adicionar</button>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section_livro">
+            <h1>Seus Livro</h1>
+            <div class="livro_card_container" id="cardContainer">
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        Todos os direitos reservados. Desenvolvido pela dupla: Luís Otávio e Rafael Chicovis
+    </footer>
+</body>
+
+
+</html>

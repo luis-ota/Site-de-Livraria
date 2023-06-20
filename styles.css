@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    font-family: Verdana;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: #f1fe90;
+    height: 100vh;
+  }
+
+  body: {
+    display: flex;
+  flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    flex-shrink: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+  }
+
+
+nav {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+    font-family: Verdana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background-color:  #9ab8cc;
+    height:  32px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+}
+
+.perguntas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    background-color: darkgray;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.itens_nav {
+    text-decoration:  none;
+    font-size: 16px;
+    color: black;
+    font-family: 'Verdana', arial;
+}
+
+.itens_nav:hover {
+    color: gray;
+}
+
+.livro {
+    background-color: #9ab8cc;  
+    width:  25vw;
+    height: 900px;
+    text-decoration:  none;
+    color: black;
+}
+
+.livro:hover {
+    background-color: #5a6f7c;  
+}
+
+.livro h2 {
+    display: flex;
+    justify-content: space-around;
+    font-size:  40px;
+}
+
+.livro h4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.livro ol {
+    padding: 32px;
+    padding-top: 8px;
+}
+
+.livro img {
+    border-style: solid;
+    border-color: gray;
+}
+
+.livro p {
+    padding: 16px;
+    text-align: justify;
+}
+
+.livro_card_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem_container {
+    max-width: 50%;
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 8px;
+}
+
+img {
+    width: 100%;
+    height: auto;   
+}
+
+.section_livro  h1{
+    color: blue;
+    text-decoration: underline;
+    font-family: Verdana;
+}
+
+.section_livro {
+    width: 90vw;
+    margin: auto;
+    margin-top: 32px;
+    padding: 16px;
+}
+
+.send_btn {
+    direction: rtl;
+}
+
+.send_btn input {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.mais-vendidos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mais-vendidos-tabela {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
